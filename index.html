@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Salma Ahmed — Video Game Writer, Scriptwriter & Short Story Author</title>
+  <meta name="description" content="Portfolio of Salma Ahmed — video game writer, scriptwriter and short story author.">
+  <meta name="theme-color" content="#07080d">
+  <meta property="og:title" content="Salma Ahmed — Video Game Writer, Scriptwriter & Short Story Author">
+  <meta property="og:description" content="Short stories, scripts and game writing by Salma Ahmed.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:ital,opsz,wght@1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <noscript><style>.loader{display:none}</style></noscript>
+</head>
+<body class="is-loading">
+
+  <!-- Intro loader -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__name" id="loaderName"></div>
+    <div class="loader__count"><span id="count">0</span><small>%</small></div>
+    <div class="loader__bar"><i id="loaderBar"></i></div>
+  </div>
+
+  <!-- Fixed UI layers -->
+  <div class="cursor" id="cursor" aria-hidden="true"><span id="cursorLabel"></span></div>
+  <div class="progress" aria-hidden="true"><i id="progress"></i></div>
+  <div class="glow" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a href="#top" class="brand" id="brand"></a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+      <span>Menu</span><i></i><i></i>
+    </button>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true">
+    <nav id="menuNav" aria-label="Main menu"></nav>
+    <p class="menu__foot" id="menuFoot"></p>
+  </div>
+
+  <nav class="dots" id="dots" aria-label="Page sections"></nav>
+
+  <main>
+    <section class="hero" id="top" data-accent="">
+      <canvas id="stars" aria-hidden="true"></canvas>
+      <div class="hero__stage" id="heroStage">
+        <h1 class="hero__name" id="heroName">
+          <span class="line line--a" id="first" aria-hidden="true"></span>
+          <span class="line line--b" id="last" aria-hidden="true"></span>
+        </h1>
+        <div class="hero__pos"><div class="hero__photo" id="photoWrap"><img id="photo" alt=""></div></div>
+      </div>
+      <p class="hero__role" id="role"></p>
+      <p class="hero__tag" id="tagline"></p>
+      <a class="hero__scroll" href="#about"><span>Scroll</span><i></i></a>
+    </section>
+
+    <div class="marquee" id="marqueeA" aria-hidden="true"><div class="marquee__track"></div></div>
+
+    <section class="about" id="about" data-accent="">
+      <div class="about__head reveal">
+        <p class="kicker" id="aboutKicker"></p>
+        <h2 class="chapter__title" id="aboutTitle"></h2>
+      </div>
+      <div class="about__body reveal">
+        <p class="about__text" id="aboutText"></p>
+        <div class="about__facts" id="aboutFacts"></div>
+        <div class="about__feat"><p class="kicker">Featured in</p><ul id="aboutFeat"></ul></div>
+      </div>
+    </section>
+
+    <div id="chapters"></div>
+    <div class="marquee marquee--rev" id="marqueeB" aria-hidden="true"><div class="marquee__track"></div></div>
+  </main>
+
+  <footer class="contact" id="contact" data-accent="">
+    <p class="kicker">Contact</p>
+    <h2 class="contact__title" id="contactTitle"></h2>
+    <a class="contact__mail magnetic" id="email" data-cursor="Write"></a>
+    <ul class="socials" id="socials"></ul>
+    <p class="notice" id="notice"></p>
+    <p class="copy" id="copy"></p>
+  </footer>
+
+  <script src="works.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

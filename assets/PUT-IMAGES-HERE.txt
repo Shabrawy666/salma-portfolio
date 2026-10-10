@@ -1,0 +1,2 @@
+Put your 19 image files here: image.jpeg (portrait), image1.jpeg ... image18.jpeg.
+Easiest: double-click copy-images.bat in the main folder - it copies them from C:\Users\Lenovo\Downloads\writer for you.
