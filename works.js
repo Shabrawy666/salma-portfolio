@@ -161,6 +161,13 @@ window.SECTIONS = [
         description: "",
         image: "assets/image4.jpeg",
         url: ""
+      },
+      {
+        title: "What Makes Life? | Life Advice with Dr. Madry",
+        type: "Script · Episode Writer",
+        description: "",
+        image: "assets/image19.jpeg",
+        url: "https://youtu.be/WYJZGZACI9s"
       }
     ]
   },
@@ -194,6 +201,22 @@ window.SECTIONS = [
         status: "In Development",
         description: "",
         image: "assets/image7.jpeg",
+        url: ""
+      },
+      {
+        title: "Bushy Man",
+        type: "Game · Arabic Localization",
+        status: "In Development",
+        description: "",
+        image: "assets/image20.jpeg",
+        url: "https://store.steampowered.com/app/3057280/Bushy_Man/"
+      },
+      {
+        title: "Malus Internos",
+        type: "Game · Writer",
+        status: "In Development",
+        description: "",
+        image: "assets/image21.jpeg",
         url: ""
       }
     ]
